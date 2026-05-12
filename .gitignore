@@ -33,3 +33,4 @@ packages/
 .env
 **/bin/
 **/obj/
+informe1/scripts/dotnet/dotnet.sh
