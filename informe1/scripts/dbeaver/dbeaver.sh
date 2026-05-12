@@ -40,13 +40,13 @@ install_dbeaver() {
         return
     fi
 
-    snap install "$PACKAGE_NAME"
+    snap install "$PACKAGE_NAME" --classic
 }
 
 verify_installation() {
     echo "[6] Verificando instalacion..."
 
-    if snap list | grep -q "^${PACKAGE_NAME}$"; then
+    if snap list "${PACKAGE_NAME}" >/dev/null 2>&1; then
         echo "DBeaver instalado correctamente."
     else
         echo "Error instalando DBeaver."

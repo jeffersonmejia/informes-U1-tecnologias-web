@@ -1,0 +1,1 @@
+snap run dbeaver-ce
