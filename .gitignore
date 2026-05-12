@@ -1,0 +1,33 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dotnet
+*.dbmdl
+*.cache
+*.pdb
+
+# NuGet
+packages/
+*.nupkg
+
+# Environment
+.env
