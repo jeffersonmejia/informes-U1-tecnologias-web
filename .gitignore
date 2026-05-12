@@ -31,3 +31,5 @@ packages/
 
 # Environment
 .env
+**/bin/
+**/obj/
