@@ -1,15 +1,18 @@
 ﻿using System;
 
-class Programa
-{
-    public void Saludar()
-    {
-        Console.WriteLine("¡Hola a todos!");
-    }
+class Program {
+    static void Main() {
 
-    static void Main(string[] args)
-    {
-        Programa p = new Programa();
-        p.Saludar();
+        Console.WriteLine("¿Cuál es tu nombre?");
+        string nombre = Console.ReadLine() ?? "";
+
+        Console.WriteLine("¿Cuál es tu edad?");
+        int edad = int.Parse(Console.ReadLine() ?? "0");
+
+        if (edad >= 18) {
+            Console.WriteLine(nombre + ", eres mayor de edad");
+        } else {
+            Console.WriteLine(nombre + ", eres menor de edad");
+        }
     }
 }
