@@ -8,5 +8,4 @@ public class Estudiante {
     public float CalcularPromedio() {
         return (Nota1 + Nota2 + Nota3) / 3;
     }
-
 }
